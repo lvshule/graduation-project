@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>welcome</title>
+</head>
+
+<body>
+<!body background="./source/bk3.jpg">
+<!--<TABLE height=200 cellPadding=10 width=900 align=center background="./source/bk1.jpg"  border=3 table="0">-->
+<TBODY>
+<br>
+<div id="Layer1" style="position:absolute; width:100%; height:100%; z-index:-1">    
+<img src="./source/bk4.jpg" height="100%" width="100%"/>    
+</div> 
+<TR>
+<TD>
+<DIV align=center><FONT face=楷体_GB2312 color=#c709f7 size=7> 机房环境监测系统 </FONT></DIV>
+<DIV align=center><FONT face=楷体_GB2312 color=#1ae66b size=6> 欢迎您！</FONT></DIV>
+<DIV align=center><FONT face=楷体_GB2312><FONT size=4><FONT color=#ffffff> 
+
+</EMBED></FONT></FONT></FONT></DIV></TD></TR></TBODY></TABLE>
+<div></div>
+<br>
+
+      	<div align="right">
+        <table width="900" border="0">
+  <tr><td>
+   <form  onsubmit="return isValidate(myform)" action="cgi-bin/login.cgi" method="get">
+      <b><big>用户名:</big></b> <input type="text" name="username" id="username" > 
+      <b><big>密码:</big></b> <input type="password" name="userpass" id="userpass"> 
+    <input type="submit" value="登录" id="button" >
+		</form>
+
+        </td></tr>
+</table>
+        </div>
+<!--<p>&nbsp;</p>-->
+
+
+  <div align="center">
+    <table width="703" height="391" border="0" background="./source/jf.jpg">
+    	
+      <tr>
+
+
+        <td width="126" height="248">&nbsp;<!/td>
+        <td width="351"><!/td>
+        <td width="101">&nbsp;<!/td>
+        
+      </tr>
+      <tr>
+        
+        <td></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><form  name="myform" method="get" action="cgi-bin/login.cgi" onsubmit="return isValidate(myform)">
+        <div align="center">
+          <!--  <table width="100" border="1" bordercolor="#FF0000">
+              <tr>
+                <td><div align="center"><input type="submit" name="button" id="button" value="进入仓库" style=" font-size:20px;height:70px;width:100px; background:transparent;border:0;color:red" /></div></td>
+              </tr>
+            </table>
+          </div>
+          </form></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      </table>
+     -->
+
+  </div>
+</body>
+</html>
+
+
+<!--
+<script language="javascript">
+function isValidate(form)
+{
+	username=form.username.value;
+	userpass=form.userpass.value;
+	if(username == "")
+	{	
+		alert("用户名不能为空,请输入两位以上用户名");
+		form.username.focus();
+		return false;
+	}
+	
+	if(!minLength(username,2))
+	{
+		alert("用户名长度小于2位！");
+		form.username.focus();
+		return false;
+	}
+
+	if(!maxLength(username,10))
+	{
+		alert("用户名长度大于10位！");
+		form.username.focus();
+		return false;
+	}
+	if(userpass == "")
+	{	
+		alert("密码不能为空");
+		form.userpass.focus();
+		return false;
+	}
+	if(!minLength(userpass,2))
+	{
+		alert("口令长度小于2位！");
+		form.userpass.focus();
+		return false;
+	}
+	if(!maxLength(userpass,20))
+	{
+		alert("口令长度大于20位！");
+		form.userpass.focus();
+		return false;
+	}
+	return true;
+	}
+	function minLength(str,length)
+	{
+		if(str.length>=length)
+			return true;	
+		else
+			return false;
+	}
+	function maxLength(str,length)
+	{
+		if(str.length<=length)
+			return true;
+		else 
+			return false;
+	}
+
+</script>
+-->
